@@ -1,0 +1,9 @@
+Package: com.ioscreatix.twig
+Name: Twig
+Depends: mobilesubstrate
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: Add some Weather to your iOS 10 iPhone or iPod Touch Lockscreen
+Maintainer: iOS Creatix
+Author: iOS Creatix
+Section: Tweaks
