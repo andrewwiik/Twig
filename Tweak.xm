@@ -68,6 +68,12 @@ static BOOL RTL_IS_SET = NO;
 			                                            multiplier:1
 			                                              constant:0]];
 }
+
+- (void)setContentAlpha:(CGFloat)alpha withSubtitleVisible:(BOOL)subtitleVisible {
+	%orig;
+	if (self.weatherController)
+		self.weatherController.view.alpha = alpha;
+}
 %end
 
 %hook WATodayPadViewStyle
